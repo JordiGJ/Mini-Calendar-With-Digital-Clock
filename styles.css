@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+  background-color: rgb(101, 81, 233);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: cursive;
+}
+main {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #2e2e2e;
+}
+h3 {
+  /* background-color: rgb(250, 41, 41); */
+  background-color: orangered;
+  padding: 0.6rem 6.4rem;
+  color: #dfff;
+  font-size: 1.9rem;
+}
+section {
+  background-color: #fff;
+  text-align: center;
+  padding: 0 0 1rem 0;
+}
+#day {
+  font-size: 1.2rem;
+  padding: 1.2rem;
+  color: grey;
+  opacity: 0.8;
+}
+#date {
+  font-size: 5rem;
+  font-weight: bold;
+}
+#fullYear {
+  margin-bottom: 0.5rem;
+  color: grey;
+  opacity: 0.8;
+  font-size: 1.2rem;
+}
+#time {
+  font-size: 1.5rem;
+}
+span {
+  display: inline-block;
+  color: grey;
+  letter-spacing: 0.1rem;
+  width: 40px;
+}
+#amPm {
+  font-size: 1rem;
+}
+@media (width <= 325px) {
+  h3 {
+    padding: 0.6rem 5rem;
+  }
+}
